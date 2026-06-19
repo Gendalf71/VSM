@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="Фото 1. Схема сети ВСМ от Москвы">
+<title>Фото 1. Схема сети ВСМ от Москвы</title>
+<defs>
+  <style>
+    .bg { fill:#0f172a; }
+    .panel { fill:#111827; stroke:#334155; stroke-width:2; }
+    .panel2 { fill:#f8fafc; stroke:#cbd5e1; stroke-width:2; }
+    .title { font-family:'DejaVu Sans', Arial, sans-serif; font-size:42px; font-weight:700; fill:#f8fafc; }
+    .subtitle { font-family:'DejaVu Sans', Arial, sans-serif; font-size:24px; fill:#cbd5e1; }
+    .label { font-family:'DejaVu Sans', Arial, sans-serif; font-size:22px; fill:#e5e7eb; }
+    .small { font-family:'DejaVu Sans', Arial, sans-serif; font-size:17px; fill:#cbd5e1; }
+    .darklabel { font-family:'DejaVu Sans', Arial, sans-serif; font-size:22px; fill:#111827; }
+    .darksmall { font-family:'DejaVu Sans', Arial, sans-serif; font-size:17px; fill:#334155; }
+    .note { font-family:'DejaVu Sans', Arial, sans-serif; font-size:15px; fill:#94a3b8; }
+    .red { stroke:#ef4444; } .violet { stroke:#a855f7; } .cyan { stroke:#06b6d4; } .orange { stroke:#f59e0b; } .green { stroke:#22c55e; } .blue { stroke:#3b82f6; }
+    .thin { stroke-width:3; fill:none; } .thick { stroke-width:9; fill:none; stroke-linecap:round; stroke-linejoin:round; }
+    .dash { stroke-dasharray:16 10; }
+  </style>
+  <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+    <path d="M2,2 L10,6 L2,10 Z" fill="#e5e7eb" />
+  </marker>
+  <marker id="arrowDark" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+    <path d="M2,2 L10,6 L2,10 Z" fill="#111827" />
+  </marker>
+</defs>
+
+<rect class="bg" x="0" y="0" width="1600" height="900"/>
+<text class="title" x="70" y="80">Фото 1. Сеть ВСМ от Москвы: схема для проверки чисел</text>
+<text class="subtitle" x="70" y="118">Авторская реконструкция по данным статьи. Южная подпись 715 км / 3 ч помечена как требующая сверки.</text>
+<circle cx="780" cy="455" r="64" fill="#f8fafc" stroke="#38bdf8" stroke-width="5"/>
+<text class="darklabel" x="725" y="464" font-weight="700">Москва</text>
+<!-- Lines -->
+<path class="thick red" d="M780 455 C690 310,620 210,515 120"/>
+<path class="thick violet" d="M780 455 C620 480,500 505,360 560"/>
+<path class="thick cyan" d="M780 455 C915 470,1010 505,1110 570"/>
+<path class="thick orange" d="M780 455 C970 410,1110 330,1260 245 C1350 205,1420 165,1490 115"/>
+<path class="thick green" d="M780 455 C960 600,1120 705,1370 760"/>
+<!-- Cities -->
+<circle cx="515" cy="120" r="18" fill="#ef4444"/><text class="label" x="540" y="116">Санкт-Петербург</text><text class="small" x="540" y="145">679 км · 2 ч 15 мин · средняя ≈302 км/ч</text>
+<circle cx="360" cy="560" r="18" fill="#a855f7"/><text class="label" x="165" y="555">Минск</text><text class="small" x="165" y="584">715 км · около 3 ч · средняя ≈238 км/ч</text>
+<circle cx="1110" cy="570" r="18" fill="#06b6d4"/><text class="label" x="1135" y="565">Рязань</text><text class="small" x="1135" y="594">205 км · 1 ч 5 мин</text>
+<circle cx="1055" cy="360" r="13" fill="#f59e0b"/><text class="small" x="1075" y="354">Нижний Новгород</text>
+<circle cx="1260" cy="245" r="15" fill="#f59e0b"/><text class="small" x="1282" y="240">Казань</text>
+<circle cx="1490" cy="115" r="18" fill="#f59e0b"/><text class="label" x="1280" y="100">Екатеринбург</text><text class="small" x="1280" y="129">1532 км · 6 ч 36 мин</text>
+<circle cx="1090" cy="665" r="13" fill="#22c55e"/><text class="small" x="1110" y="660">Воронеж</text>
+<circle cx="1370" cy="760" r="18" fill="#22c55e"/><text class="label" x="1395" y="755">Адлер</text><text class="small" x="1395" y="784">полное направление: ≈1540 км · ≈7 ч 50 мин</text>
+<rect x="70" y="720" width="610" height="105" rx="18" fill="#1e293b" stroke="#475569" stroke-width="2"/>
+<text class="label" x="95" y="760">Контрольная пометка</text>
+<text class="small" x="95" y="792">Подпись 715 км / 3 ч у южного луча в исходной инфографике</text>
+<text class="small" x="95" y="820">нельзя принимать как параметр полного маршрута Москва — Адлер.</text>
+<text class="note" x="70" y="870">Все линии — схемные, не географическая трассировка. Можно публиковать как оригинальную техническую схему.</text>
+</svg>

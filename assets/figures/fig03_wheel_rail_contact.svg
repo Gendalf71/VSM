@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="Рис. 3. Контакт колесо — рельс">
+<title>Рис. 3. Контакт колесо — рельс</title>
+<defs>
+  <style>
+    .bg { fill:#0f172a; }
+    .panel { fill:#111827; stroke:#334155; stroke-width:2; }
+    .panel2 { fill:#f8fafc; stroke:#cbd5e1; stroke-width:2; }
+    .title { font-family:'DejaVu Sans', Arial, sans-serif; font-size:42px; font-weight:700; fill:#f8fafc; }
+    .subtitle { font-family:'DejaVu Sans', Arial, sans-serif; font-size:24px; fill:#cbd5e1; }
+    .label { font-family:'DejaVu Sans', Arial, sans-serif; font-size:22px; fill:#e5e7eb; }
+    .small { font-family:'DejaVu Sans', Arial, sans-serif; font-size:17px; fill:#cbd5e1; }
+    .darklabel { font-family:'DejaVu Sans', Arial, sans-serif; font-size:22px; fill:#111827; }
+    .darksmall { font-family:'DejaVu Sans', Arial, sans-serif; font-size:17px; fill:#334155; }
+    .note { font-family:'DejaVu Sans', Arial, sans-serif; font-size:15px; fill:#94a3b8; }
+    .red { stroke:#ef4444; } .violet { stroke:#a855f7; } .cyan { stroke:#06b6d4; } .orange { stroke:#f59e0b; } .green { stroke:#22c55e; } .blue { stroke:#3b82f6; }
+    .thin { stroke-width:3; fill:none; } .thick { stroke-width:9; fill:none; stroke-linecap:round; stroke-linejoin:round; }
+    .dash { stroke-dasharray:16 10; }
+  </style>
+  <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+    <path d="M2,2 L10,6 L2,10 Z" fill="#e5e7eb" />
+  </marker>
+  <marker id="arrowDark" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+    <path d="M2,2 L10,6 L2,10 Z" fill="#111827" />
+  </marker>
+</defs>
+
+<rect x="0" y="0" width="1600" height="900" fill="#0b1020"/>
+<text class="title" x="70" y="78">Рис. 3. Пятно контакта «колесо — рельс»</text>
+<text class="subtitle" x="70" y="116">На высокой скорости микроскопическая зона контакта решает износ, шум, вибрацию и безопасность.</text>
+<!-- rail -->
+<rect x="270" y="650" width="1060" height="55" rx="8" fill="#475569"/>
+<rect x="560" y="560" width="480" height="100" rx="18" fill="#64748b"/>
+<rect x="470" y="510" width="660" height="60" rx="25" fill="#94a3b8"/>
+<!-- wheel -->
+<circle cx="800" cy="395" r="210" fill="#e2e8f0" stroke="#94a3b8" stroke-width="10"/>
+<circle cx="800" cy="395" r="120" fill="#0b1020" stroke="#64748b" stroke-width="8"/>
+<path d="M650 535 C705 565,895 565,950 535" fill="#cbd5e1" stroke="#64748b" stroke-width="5"/>
+<!-- contact patch -->
+<ellipse cx="800" cy="555" rx="78" ry="19" fill="#ef4444" opacity="0.9"/>
+<text class="label" x="910" y="548">пятно контакта</text><text class="small" x="910" y="578">условно увеличено</text>
+<line x1="895" y1="550" x2="850" y2="555" stroke="#e5e7eb" stroke-width="3" marker-end="url(#arrow)"/>
+<!-- forces -->
+<line x1="800" y1="230" x2="800" y2="520" stroke="#38bdf8" stroke-width="7" marker-end="url(#arrow)"/>
+<text class="label" x="825" y="315">N</text><text class="small" x="825" y="345">вертикальная нагрузка</text>
+<line x1="800" y1="555" x2="980" y2="555" stroke="#f59e0b" stroke-width="7" marker-end="url(#arrow)"/>
+<text class="label" x="1000" y="560">Y</text><text class="small" x="1000" y="590">боковая сила</text>
+<path d="M615 620 C700 595,900 595,985 620" fill="none" stroke="#22c55e" stroke-width="4" stroke-dasharray="12 8"/>
+<text class="small" x="560" y="770">Если путь «дышит», пятно контакта начинает работать как молоток: износ, виброакустика, ограничение скорости.</text>
+<text class="note" x="70" y="850">Авторская учебная схема; геометрия колеса и рельса упрощена для читательского понимания.</text>
+</svg>
